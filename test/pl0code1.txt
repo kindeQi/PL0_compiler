@@ -1,0 +1,7 @@
+const c1=5,c2=6;
+var a,b,c,d;
+procedure d1;
+const c1=1,dc1=2;
+var e,f;
+read(b,f)
+write(c1*a+c2).

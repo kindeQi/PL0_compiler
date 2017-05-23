@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>AllPcode</OriginalElement>
+  <nodes>
+    <node x="778.0" y="1377.0">PerPcode</node>
+    <node x="1060.0" y="1377.0">kwAndsymAndcon</node>
+    <node x="840.0" y="0.0">AllPcode</node>
+    <node x="0.0" y="1377.0">proc_node</node>
+    <node x="0.0" y="792.0">symbolTable</node>
+    <node x="585.0" y="792.0">Lex_Console</node>
+    <node x="0.0" y="0.0">Console</node>
+    <node x="1172.0" y="792.0">symrow</node>
+    <node x="293.0" y="1377.0">error</node>
+    <node x="534.0" y="1377.0">token</node>
+    <node x="1297.0" y="1377.0">compiler_pl0</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Lex_Console" target="kwAndsymAndcon">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Lex_Console" target="token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="compiler_pl0" target="Console">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="symrow">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="symbolTable">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="symbolTable" target="symrow">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="AllPcode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="proc_node" target="proc_node">
+      <point x="0.0" y="0.0" />
+      <point x="124.0" y="1270.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="symbolTable" target="proc_node">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="Lex_Console">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="token">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="error">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="AllPcode" target="PerPcode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="error" target="error">
+      <point x="0.0" y="0.0" />
+      <point x="391.0" y="1281.5" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Console" target="PerPcode">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="Lex_Console" target="error">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.36838466373350087" x="1426.9649143619522" y="896.7639849268012" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

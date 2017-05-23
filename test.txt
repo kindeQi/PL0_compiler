@@ -1,0 +1,5 @@
+var b;
+procedure proc;
+	const a=3;
+	b:=3;
+call proc.

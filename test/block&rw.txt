@@ -1,0 +1,14 @@
+const c1=5,c2=6;
+var a,b,c,d;
+	procedure d1;
+	const c1=1,dc1=2;
+	var e,f;
+		procedure d2;
+		const c3=1,dc4=2;
+		var x,y;
+		write(c3+c1+c2+x+e+c);
+	read(b,f);
+	procedure test;
+	const L=1,R=2;
+	read(a,b);
+write(c1*a+c2).
