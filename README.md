@@ -17,7 +17,7 @@ From source code to P-code, completed by Java
 <因子> ::= <标识符>|<无符号整数>|'('<表达式>')‘
 <加法运算符> ::= +|-
 
-#例子
+# 例子
 源程序:
 ```
     const c1=1;
@@ -62,7 +62,7 @@ name:   b   type: var       value: -1   level: 0    address: 3  procedure: root
 name:   p1  type: procedure value: 0    level: 0    address: 1  procedure: root
 name:   c2  type: const     value: 2    level: 1    address: 3  procedure: p1
 ```
-#占坑，两遍扫描，递归下降子程序
+# 占坑，两遍扫描，递归下降子程序
 
 
 
